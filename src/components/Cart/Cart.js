@@ -31,6 +31,10 @@ const formatNumber =num =>{
             <p><small> Shipping Cost :{shipping}</small></p>
             <p><small>Tax + VAT :{tax}</small></p>
             <p>Total Price: {grandTotal}</p>
+            <br />
+            {
+                props.children
+            } 
         </div>
     );
 };
